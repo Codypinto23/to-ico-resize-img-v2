@@ -1,9 +1,12 @@
 {
   "name": "to-ico",
-  "version": "1.1.5",
+  "version": "2.0.0",
   "description": "Convert PNG to ICO in memory",
   "license": "MIT",
-  "repository": "kevva/to-ico",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/Codypinto23/to-ico-resize-img-v2"
+  },
   "author": {
     "name": "Kevin Martensson",
     "email": "kevinmartensson@gmail.com",
@@ -30,7 +33,7 @@
     "buffer-alloc": "^1.1.0",
     "image-size": "^0.5.0",
     "parse-png": "^1.0.0",
-    "resize-img": "^1.1.0"
+    "resize-img": "^2.0.0"
   },
   "devDependencies": {
     "ava": "*",
